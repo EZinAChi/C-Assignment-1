@@ -4,6 +4,8 @@
 #include <iostream>
 #include "Dictionary.h"
 
+static int MAXSTREAK_COUNT = 0, CURSTREAK_COUNT = 0, WIN_COUNTER = 0, PLAY_COUNTER = 1;
+
 const std::string Dictionary::words[] = {
 	"speed",
 	"crowd",
@@ -50,8 +52,16 @@ const std::string Dictionary::words[] = {
 void menu(int i) {
 	while (i != 1 && i != 2 && i != 3) { std::cout << "\n Please type in the number (1-3).\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n"; std::cin >> i; }
 
-	if (i == 1) {}
-	else if (i == 2) {}
+	if (i == 1) {
+
+	}
+	else if (i == 2) {
+		std::cout << "Played: " << PLAY_COUNTER << " Win % : " << WIN_COUNTER / PLAY_COUNTER * 100 << " Current streak : " << CURSTREAK_COUNT << " Max streak : " << MAXSTREAK_COUNT << "\n \n GUESS DISTRIBUTION \n";
+		for (i = 0; i < 6; i++) {
+			std::cout << i + 1 << ": " << 0 << "\n";
+		}
+		menu(i);
+	}
 	else if (i == 3) {
 		std::cout <<
 			"\n Guess the WERDLE in six tries. \n \n Each guess must be a five - letter word. Hit the enter button to submit. \n \n Examples \n [A] P P L E \n The letter A is in the correct position. \n D |E| A L T \n The letter E is in the word but in the wrong position. \n \n \n";
@@ -62,13 +72,12 @@ void menu(int i) {
 }
 
 int main()
-{	
-	static int MAXSTREAK_COUNT = 0, CURSTREAK_COUNT = 0, WIN_PERCENT = 0, WIN_COUNTER = 0, PLAY_COUNTER = 0;
-	int x;
-    std::cout << "Welcome to Werdle.\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n";
-	std::cin >> x;
-	menu(x);
-	
+{
+	int message;
+	std::cout << "Welcome to Werdle.\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n";
+	std::cin >> message;
+	menu(message);
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
