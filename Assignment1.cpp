@@ -54,16 +54,21 @@ void menu(int i) {
 	else if (i == 2) {}
 	else if (i == 3) {
 		std::cout <<
-			"\n Guess the WERDLE in six tries. \n \n Each guess must be a five - letter word. Hit the enter button to submit. \n \n Examples \n [A] P P L E \n The letter A is in the correct position. \n D |E| A L T \n The letter E is in the word but in the wrong position. \n \n \n";		std::cout << "Welcome to Werdle.\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n";
-		std::cin >> i;		menu(i);	}
+			"\n Guess the WERDLE in six tries. \n \n Each guess must be a five - letter word. Hit the enter button to submit. \n \n Examples \n [A] P P L E \n The letter A is in the correct position. \n D |E| A L T \n The letter E is in the word but in the wrong position. \n \n \n";
+		std::cout << "Welcome to Werdle.\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n";
+		std::cin >> i;
+		menu(i);
+	}
 }
 
 int main()
 {	
+	static int MAXSTREAK_COUNT = 0, CURSTREAK_COUNT = 0, WIN_PERCENT = 0, WIN_COUNTER = 0, PLAY_COUNTER = 0;
 	int x;
     std::cout << "Welcome to Werdle.\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n";
 	std::cin >> x;
-	menu(x);	
+	menu(x);
+	
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
