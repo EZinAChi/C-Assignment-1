@@ -11,9 +11,12 @@ C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,3): error C2065:  'Ga
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C2146:  syntax error: missing ';' before identifier 'g'
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C3861:  'g': identifier not found
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,3): error C2065:  'g': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
-C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
-C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C2107:  illegal index, indirection not allowed
+C:\Users\13392\source\repos\Assignment1\Game.h(27,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(33,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(33,1): error C2107:  illegal index, indirection not allowed
+C:\Users\13392\source\repos\Assignment1\Game.h(46,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(46,1): error C2440:  '=': cannot convert from 'int *(__thiscall Session::* )(void)' to 'int *'
+C:\Users\13392\source\repos\Assignment1\Game.h(46,14): message :  There is no context in which this conversion is possible
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8,12): error C2374:  'maxstreak_count': redefinition; multiple initialization
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8): message :  see declaration of 'maxstreak_count'
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8,33): error C2374:  'curstreak_count': redefinition; multiple initialization
@@ -47,41 +50,49 @@ C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,3): error C2065:  'Ga
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C2146:  syntax error: missing ';' before identifier 'g'
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C3861:  'g': identifier not found
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,3): error C2065:  'g': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
-C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(27,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(33,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(33,1): error C2107:  illegal index, indirection not allowed
+C:\Users\13392\source\repos\Assignment1\Game.h(46,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(46,1): error C2440:  '=': cannot convert from 'int *(__thiscall Session::* )(void)' to 'int *'
   Guess.cpp
-C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C2107:  illegal index, indirection not allowed
-C:\Users\13392\source\repos\Assignment1\Session.h(32,3): error C2065:  'Guess': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Session.h(32,9): error C2146:  syntax error: missing ';' before identifier 'g'
-C:\Users\13392\source\repos\Assignment1\Session.h(32,9): error C2065:  'g': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Session.h(33,17): error C2065:  'g': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
-C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
-C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C2107:  illegal index, indirection not allowed
-C:\Users\13392\source\repos\Assignment1\Game.h(34,6): error C2065:  'maxstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(36,5): error C2065:  'curstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(57,14): error C2065:  'win_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(60,30): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(60,94): error C2065:  'curstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(60,133): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(46,14): message :  There is no context in which this conversion is possible
+C:\Users\13392\source\repos\Assignment1\Session.h(33,3): error C2065:  'Guess': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Session.h(33,9): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Session.h(33,9): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Session.h(34,17): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(27,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(33,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(33,1): error C2107:  illegal index, indirection not allowed
+C:\Users\13392\source\repos\Assignment1\Game.h(35,6): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(37,5): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(46,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(46,1): error C2440:  '=': cannot convert from 'int *(__thiscall Session::* )(void)' to 'int *'
+C:\Users\13392\source\repos\Assignment1\Game.h(46,14): message :  There is no context in which this conversion is possible
+C:\Users\13392\source\repos\Assignment1\Game.h(62,14): error C2065:  'win_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(65,30): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(65,94): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(65,133): error C2065:  'maxstreak_count': undeclared identifier
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(59,9): error C3867:  'Game::Play': non-standard syntax; use '&' to create a pointer to member
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(64,14): error C3867:  'Game::Statistic': non-standard syntax; use '&' to create a pointer to member
   Session.cpp
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,9): error C3867:  'Game::Help': non-standard syntax; use '&' to create a pointer to member
-C:\Users\13392\source\repos\Assignment1\Game.h(25,3): error C2065:  'Session': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(25,11): error C2146:  syntax error: missing ';' before identifier 's'
-C:\Users\13392\source\repos\Assignment1\Game.h(25,11): error C3861:  's': identifier not found
-C:\Users\13392\source\repos\Assignment1\Game.h(26,17): error C2065:  's': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(30,4): error C2065:  'Session': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(30,12): error C2146:  syntax error: missing ';' before identifier 's'
-C:\Users\13392\source\repos\Assignment1\Game.h(30,12): error C3861:  's': identifier not found
-C:\Users\13392\source\repos\Assignment1\Game.h(32,15): error C2065:  's': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(34,6): error C2065:  'maxstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(36,5): error C2065:  'curstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(57,14): error C2065:  'win_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(60,30): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(60,94): error C2065:  'curstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(60,133): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(26,3): error C2065:  'Session': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(26,11): error C2146:  syntax error: missing ';' before identifier 's'
+C:\Users\13392\source\repos\Assignment1\Game.h(26,11): error C3861:  's': identifier not found
+C:\Users\13392\source\repos\Assignment1\Game.h(27,17): error C2065:  's': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(31,4): error C2065:  'Session': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(31,12): error C2146:  syntax error: missing ';' before identifier 's'
+C:\Users\13392\source\repos\Assignment1\Game.h(31,12): error C3861:  's': identifier not found
+C:\Users\13392\source\repos\Assignment1\Game.h(33,15): error C2065:  's': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(35,6): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(37,5): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(44,4): error C2065:  's': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(46,12): error C2065:  's': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(62,14): error C2065:  'win_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(65,30): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(65,94): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(65,133): error C2065:  'maxstreak_count': undeclared identifier
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(59,9): error C3867:  'Game::Play': non-standard syntax; use '&' to create a pointer to member
 C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(64,14): error C3867:  'Game::Statistic': non-standard syntax; use '&' to create a pointer to member
   Generating Code...

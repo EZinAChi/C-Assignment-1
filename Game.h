@@ -14,7 +14,8 @@ class Game{
 private:
 	int played = 1;
 	std::string input = "";
-	bool streak;
+	bool streak = false;
+	int* disPtr;
 public:
 	Game(int p) {
 		this->played = p;
@@ -24,7 +25,7 @@ public:
 		std::cin >> input;
 		Session s(played, input);
 		int* resPtr = s.GetResult; 
-		while (true){
+		for (int i = 1; i < 6; i++) {
 			std::cout << "guess: ";
 			std::cin >> input;
 			Session s(played, input);
@@ -37,10 +38,14 @@ public:
 				streak = true;
 				break;
 			}
-			streak = false;
+			else {
+				streak = false;
+			}
+			s.guess += 1;
 		}
-		
+		disPtr = s.GetResult;
 	}
+
 
 	void Help() {
 		std::cout <<
@@ -59,7 +64,7 @@ public:
 
 		std::cout << "Played: " << play_count << " Win % : " << percent << " Current streak : " << curstreak_count << " Max streak : " << maxstreak_count << "\n \n GUESS DISTRIBUTION \n";
 		for (int i = 0; i < 6; i++) {
-			std::cout << i + 1 << ": " << 0 << "\n";
+			std::cout << i + 1 << ": " << disPtr[i] << "\n";
 		}
 	}
 };

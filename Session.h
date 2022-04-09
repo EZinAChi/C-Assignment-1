@@ -15,8 +15,9 @@ class Session{
 private:
 	std::string word = "";
 	std::string input = "";
-	static int guesses[6], guess;
+	static int guesses[6];
 public:
+	static int guess;
 	Session(int p, std::string w) {
 		Dictionary d;
 		this->word = d.words[p];
@@ -37,7 +38,6 @@ public:
 				guesses[guess] = 0;
 			}
 		}
-		guess += 1;
 		return guesses;
 	}
 
