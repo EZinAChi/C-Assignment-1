@@ -1,30 +1,88 @@
 ﻿  Assignment1.cpp
-C:\Users\13392\source\repos\Assignment1\Game.h(32,7): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(36,14): error C2065:  'win_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(36,26): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(39,38): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(39,102): error C2065:  'curstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(39,141): error C2065:  'maxstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(65,14): error C3867:  'Game::Statistic': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(58,3): error C2065:  'Game': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(58,8): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(58,8): error C3861:  'g': identifier not found
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(59,3): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(63,3): error C2065:  'Game': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(63,8): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(63,8): error C3861:  'g': identifier not found
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(64,3): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,3): error C2065:  'Game': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C3861:  'g': identifier not found
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,3): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C2107:  illegal index, indirection not allowed
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8,12): error C2374:  'maxstreak_count': redefinition; multiple initialization
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8): message :  see declaration of 'maxstreak_count'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8,33): error C2374:  'curstreak_count': redefinition; multiple initialization
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8): message :  see declaration of 'curstreak_count'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8,54): error C2374:  'win_count': redefinition; multiple initialization
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8): message :  see declaration of 'win_count'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8,69): error C2374:  'play_count': redefinition; multiple initialization
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(8): message :  see declaration of 'play_count'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(10,31): error C2374:  'words': redefinition; multiple initialization
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(10): message :  see declaration of 'words'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(53,18): error C2084:  function 'void menu(int)' already has a body
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(53): message :  see previous definition of 'menu'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(59,9): error C3867:  'Game::Play': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(64,14): error C3867:  'Game::Statistic': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(65,3): error C2065:  'menu': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,9): error C3867:  'Game::Help': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(72,3): error C2065:  'menu': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(77,1): error C2084:  function 'int main(void)' already has a body
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(76): message :  see previous definition of 'main'
   Game.cpp
-C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(71,9): error C3867:  'Game::Help': non-standard syntax; use '&' to create a pointer to member
-C:\Users\13392\source\repos\Assignment1\Game.h(24,8): error C2039:  'cout': is not a member of 'std'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
-C:\Users\13392\source\repos\Assignment1\Game.h(24,1): error C2065:  'cout': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(26,8): error C2039:  'cout': is not a member of 'std'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
-C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C2065:  'cout': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(32,7): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(36,14): error C2065:  'win_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(36,26): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(39,8): error C2039:  'cout': is not a member of 'std'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
-C:\Users\13392\source\repos\Assignment1\Game.h(39,1): error C2065:  'cout': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(39,38): error C2065:  'play_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(39,102): error C2065:  'curstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(39,141): error C2065:  'maxstreak_count': undeclared identifier
-C:\Users\13392\source\repos\Assignment1\Game.h(41,9): error C2039:  'cout': is not a member of 'std'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
-C:\Users\13392\source\repos\Assignment1\Game.h(41,1): error C2065:  'cout': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(81,2): error C2065:  'menu': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(58,3): error C2065:  'Game': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(58,8): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(58,8): error C3861:  'g': identifier not found
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(59,3): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(63,3): error C2065:  'Game': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(63,8): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(63,8): error C3861:  'g': identifier not found
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(64,3): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,3): error C2065:  'Game': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(69,8): error C3861:  'g': identifier not found
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,3): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
+  Guess.cpp
+C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C2107:  illegal index, indirection not allowed
+C:\Users\13392\source\repos\Assignment1\Session.h(32,3): error C2065:  'Guess': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Session.h(32,9): error C2146:  syntax error: missing ';' before identifier 'g'
+C:\Users\13392\source\repos\Assignment1\Session.h(32,9): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Session.h(33,17): error C2065:  'g': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C3867:  'Session::GetResult': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C3867:  'Session::getGuess': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(32,1): error C2107:  illegal index, indirection not allowed
+C:\Users\13392\source\repos\Assignment1\Game.h(34,6): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(36,5): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(57,14): error C2065:  'win_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(60,30): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(60,94): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(60,133): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(59,9): error C3867:  'Game::Play': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(64,14): error C3867:  'Game::Statistic': non-standard syntax; use '&' to create a pointer to member
+  Session.cpp
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,9): error C3867:  'Game::Help': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(25,3): error C2065:  'Session': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(25,11): error C2146:  syntax error: missing ';' before identifier 's'
+C:\Users\13392\source\repos\Assignment1\Game.h(25,11): error C3861:  's': identifier not found
+C:\Users\13392\source\repos\Assignment1\Game.h(26,17): error C2065:  's': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(30,4): error C2065:  'Session': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(30,12): error C2146:  syntax error: missing ';' before identifier 's'
+C:\Users\13392\source\repos\Assignment1\Game.h(30,12): error C3861:  's': identifier not found
+C:\Users\13392\source\repos\Assignment1\Game.h(32,15): error C2065:  's': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(34,6): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(36,5): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(57,14): error C2065:  'win_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(60,30): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(60,94): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(60,133): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(59,9): error C3867:  'Game::Play': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(64,14): error C3867:  'Game::Statistic': non-standard syntax; use '&' to create a pointer to member
   Generating Code...
-C:\Users\13392\source\repos\Assignment1\Game.h(41,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(70,9): error C3867:  'Game::Help': non-standard syntax; use '&' to create a pointer to member

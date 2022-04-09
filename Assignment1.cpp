@@ -54,10 +54,9 @@ void menu(int i) {
 	while (i != 1 && i != 2 && i != 3) { std::cout << "\n Please type in the number (1-3).\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n"; std::cin >> i; }
 
 	if (i == 1) {
-		Dictionary d;
 		play_count += 1;
-		std::cout << play_count;
-		std::cout << d.words[4];
+		Game g(play_count);
+		g.Play;
 	}
 
 	else if (i == 2) {
@@ -77,7 +76,6 @@ void menu(int i) {
 int main()
 {
 	int message;
-	Game game();
 	std::cout << "Welcome to Werdle.\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n";
 	std::cin >> message;
 	menu(message);

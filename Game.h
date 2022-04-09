@@ -12,11 +12,34 @@
 
 class Game{
 private:
-	int played;
+	int played = 1;
+	std::string input = "";
+	bool streak;
 public:
 	Game(int p) {
 		this->played = p;
-		Session s(played);
+	}
+	void Play() {
+		std::cout << "guess: ";
+		std::cin >> input;
+		Session s(played, input);
+		int* resPtr = s.GetResult; 
+		while (true){
+			std::cout << "guess: ";
+			std::cin >> input;
+			Session s(played, input);
+
+			if (resPtr[s.getGuess] == 1) {
+				if (streak){
+					maxstreak_count += 1;
+				}
+				curstreak_count += 1;
+				streak = true;
+				break;
+			}
+			streak = false;
+		}
+		
 	}
 
 	void Help() {
