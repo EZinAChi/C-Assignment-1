@@ -1,2 +1,30 @@
 ﻿  Assignment1.cpp
-  Assignment1.vcxproj -> C:\Users\13392\source\repos\Assignment1\Debug\Assignment1.exe
+C:\Users\13392\source\repos\Assignment1\Game.h(32,7): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(36,14): error C2065:  'win_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(36,26): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(39,38): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(39,102): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(39,141): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(65,14): error C3867:  'Game::Statistic': non-standard syntax; use '&' to create a pointer to member
+  Game.cpp
+C:\Users\13392\source\repos\Assignment1\Assignment1.cpp(71,9): error C3867:  'Game::Help': non-standard syntax; use '&' to create a pointer to member
+C:\Users\13392\source\repos\Assignment1\Game.h(24,8): error C2039:  'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
+C:\Users\13392\source\repos\Assignment1\Game.h(24,1): error C2065:  'cout': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(26,8): error C2039:  'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
+C:\Users\13392\source\repos\Assignment1\Game.h(26,1): error C2065:  'cout': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(32,7): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(36,14): error C2065:  'win_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(36,26): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(39,8): error C2039:  'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
+C:\Users\13392\source\repos\Assignment1\Game.h(39,1): error C2065:  'cout': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(39,38): error C2065:  'play_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(39,102): error C2065:  'curstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(39,141): error C2065:  'maxstreak_count': undeclared identifier
+C:\Users\13392\source\repos\Assignment1\Game.h(41,9): error C2039:  'cout': is not a member of 'std'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.22.27905\include\string(19): message :  see declaration of 'std'
+C:\Users\13392\source\repos\Assignment1\Game.h(41,1): error C2065:  'cout': undeclared identifier
+  Generating Code...
+C:\Users\13392\source\repos\Assignment1\Game.h(41,1): warning C4554:  '<<': check operator precedence for possible error; use parentheses to clarify precedence

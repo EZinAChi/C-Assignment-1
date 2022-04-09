@@ -1,4 +1,5 @@
 #pragma once
+#include "Dictionary.h"
 
 //Represents a playthrough of the game(e.g.up to six guesses of an unknown
 //	word).When the first session is created, it should be assigned the first word from the
@@ -9,7 +10,11 @@
 // > Knows the final score of the session, where the score is calculated as the number of
 //guesses in the session.
 
-class Session
-{
+class Session{
+public:
+	Session(int p) {
+		Dictionary d;
+		std::string word = d.words[p];
+	}
 };
 
