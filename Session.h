@@ -29,7 +29,7 @@ public:
 		guess = 0;
 	}
 
-	int* GetResult() {
+	int* getResult() {
 		Guess g;
 		int* resPtr = g.Compare(word, input);
 		for (int i = 0; i < 6; i++) {

@@ -20,11 +20,11 @@ public:
 	Game(int p) {
 		this->played = p;
 	}
-	void Play() {
+	void play() {
 		std::cout << "guess: ";
 		std::cin >> input;
 		Session s(played, input);
-		int* resPtr = s.GetResult; 
+		int* resPtr = s.getResult; 
 		for (int i = 1; i < 6; i++) {
 			std::cout << "guess: ";
 			std::cin >> input;
@@ -43,17 +43,17 @@ public:
 			}
 			s.guess += 1;
 		}
-		disPtr = s.GetResult;
+		disPtr = s.getResult;
 	}
 
 
-	void Help() {
+	void help() {
 		std::cout <<
 			"\n Guess the WERDLE in six tries. \n \n Each guess must be a five - letter word. Hit the enter button to submit. \n \n Examples \n [A] P P L E \n The letter A is in the correct position. \n D |E| A L T \n The letter E is in the word but in the wrong position. \n \n \n";
 		std::cout << "Welcome to Werdle.\n Select an option : \n 1. Play a game. \n 2. View statistic. \n 3. View help. \n";
 	}
 
-	void Statistic() {
+	void statistic() {
 		int percent;
 		if (played == 0) {
 			percent = 100;

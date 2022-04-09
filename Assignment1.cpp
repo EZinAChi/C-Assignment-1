@@ -56,18 +56,18 @@ void menu(int i) {
 	if (i == 1) {
 		play_count += 1;
 		Game g(play_count);
-		g.Play;
+		g.play;
 	}
 
 	else if (i == 2) {
 		Game g(play_count);
-		g.Statistic;
+		g.statistic;
 		menu(i);
 	}
 
 	else if (i == 3) {
 		Game g(play_count);
-		g.Help;
+		g.help;
 		std::cin >> i;
 		menu(i);
 	}
